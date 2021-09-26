@@ -14,3 +14,6 @@ class SimpleModel:
         if value == 0:
             raise ValueError("0 is forbidden as value parameter.")
         self.value = value
+
+    def reset(self):
+        self.value = 1

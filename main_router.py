@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from endpoints import get_queries, post_queries, root
+from endpoints.routers import post_queries, root, get_queries
 
 main_router = APIRouter()
 main_router.include_router(root.router)
