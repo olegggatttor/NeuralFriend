@@ -8,10 +8,10 @@
 
 # Testing
 
-## Unit tests
+### Unit tests
 
 ```py -m unittest discover test/unit```
 
-## Integration tests
+### Integration tests
 
 ```py -m unittest discover test/integration```
