@@ -5,3 +5,13 @@
 # Usage
 
 ```py main.py```
+
+# Testing
+
+### Unit tests
+
+```py -m unittest discover test/unit```
+
+### Integration tests
+
+```py -m unittest discover test/integration```
